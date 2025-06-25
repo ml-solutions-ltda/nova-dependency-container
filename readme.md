@@ -8,26 +8,26 @@ Features:
 - working form validation inside unlimited nested containers
 - support of ebess/advanced-nova-media-library
 
-This plugin is based on [epartment/nova-dependency-container](https://github.com/epartment/nova-dependency-container)
-and only supports **Nova 4.x** and **PHP 8.x**.
+This plugin is based on [ml-solutions-ltda/nova-dependency-container](https://github.com/ml-solutions-ltda/nova-dependency-container)
+and only supports **Nova 5.x** and **PHP 8.x**.
 
 ## Demo
 
-![Demo](https://raw.githubusercontent.com/alexwenzel/nova-dependency-container/master/docs/demo.gif)
+![Demo](https://raw.githubusercontent.com/mlsolutions/nova-dependency-container/master/docs/demo.gif)
 
 ## Installation
 
 The package can be installed through Composer.
 
 ```bash
-composer require alexwenzel/nova-dependency-container
+composer require mlsolutions/nova-dependency-container
 ```
 
 ## Usage
 
-1. Add the `Alexwenzel\DependencyContainer\HasDependencies` trait to your Nova Resource.
-2. Add the `Alexwenzel\DependencyContainer\DependencyContainer` to your Nova Resource `fields()` method.
-3. Add the `Alexwenzel\DependencyContainer\ActionHasDependencies` trait to your Nova Actions that you wish to use
+1. Add the `MlSolutions\DependencyContainer\HasDependencies` trait to your Nova Resource.
+2. Add the `MlSolutions\DependencyContainer\DependencyContainer` to your Nova Resource `fields()` method.
+3. Add the `MlSolutions\DependencyContainer\ActionHasDependencies` trait to your Nova Actions that you wish to use
    dependencies on.
 
 ```php
@@ -80,7 +80,7 @@ supported, `BelongsTo` and `MorphTo`.
 
 Here is an example using a checkbox:
 
-![Demo](https://raw.githubusercontent.com/alexwenzel/nova-dependency-container/master/docs/demo-2.gif)
+![Demo](https://raw.githubusercontent.com/mlsolutions/nova-dependency-container/master/docs/demo-2.gif)
 
 ## BelongsTo dependency
 
@@ -249,4 +249,4 @@ Text::make('Parent name', 'parent_id'),
 ## License
 
 The MIT License (MIT). Please
-see [License File](https://github.com/alexwenzel/nova-dependency-container/blob/master/LICENSE.md) for more information.
+see [License File](https://github.com/mlsolutions/nova-dependency-container/blob/master/LICENSE.md) for more information.

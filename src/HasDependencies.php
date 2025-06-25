@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexwenzel\DependencyContainer;
+namespace MlSolutions\DependencyContainer;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;

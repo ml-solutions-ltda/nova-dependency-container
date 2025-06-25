@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexwenzel\DependencyContainer;
+namespace MlSolutions\DependencyContainer;
 
 use Aqjw\MedialibraryField\Fields\Medialibrary;
 use Aqjw\MedialibraryField\Fields\Support\MediaCollectionRules;
